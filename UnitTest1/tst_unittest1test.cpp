@@ -15,11 +15,11 @@ private Q_SLOTS:
 
 UnitTest1Test::UnitTest1Test()
 {
-     std::cout << "Hello";
 }
 
 void UnitTest1Test::testCase1()
 {
+    QCOMPARE(0, 1);
     QVERIFY2(true, "Failure");
 }
 
